@@ -11,4 +11,25 @@ body {
 .light {
   border: 4px solid white;
   color: brown;
+  font-family: Arial Black;
+}
+
+.navigation {
+  background-color: #F4976C;
+}
+
+.col {
+  background-color: #35C8CA;
+
+}
+
+.col-1 {
+
+  padding: 30px;
+  text-align: center;
+
+}
+
+.carousel {
+  height: 100vh;
 }
