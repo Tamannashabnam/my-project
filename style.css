@@ -1,0 +1,14 @@
+body {
+  background-color: rgb(250, 235, 215);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.another {
+  background-color: white;
+  margin-top: 30px;
+}
+
+.light {
+  border: 4px solid white;
+  color: brown;
+}
