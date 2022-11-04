@@ -10,24 +10,30 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Source+Sans+Pro:wght@400;700&display=swap"
       rel="stylesheet">
-
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
       integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/6dac8b3772.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
 
   <body>
 
-    <nav class="navbar navbar-dark  navigation mt-2 mb-2 ">
+    <nav class="navbar navbar-dark  aboutuss mt-2 mb-2 ">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
           <img
             src="img/fresh-logo-for-natural-product-organic-icon-for-healthy-food-label-healthy-vegan-restaurant-symbol-logo-template-for-organic-farm-grown-food-free-vector.jpg"
             alt="Bootstrap" width="50" height="50">
         </a>
-        <header class="navbar navbar-expand-lg navigation mt-2 mb-2">
-          <div class="container-fluid">
+        <header class="navbar navbar-expand-lg   mt-2 mb-2">
+          <div class="container-fluid aboutuss">
             <a class="navbar-brand aboutus" href="#">Home</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
               data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -105,8 +111,8 @@
 
         <main>
 
-          <section class="container-fluid pt-2   ms-4 navigation">
-            <div class="row row-cols-1 row-cols-md-3 row-cols-md-12 g-5">
+          <section class="container-fluid pt-2   navigation">
+            <div class="row row-cols-1 row-cols-md-3 row-cols-md-12 g-3">
               <div class="col">
                 <div class="card">
                   <img src="img/download.jpeg" class="card-img-top " alt="..." height="200" width="200">
@@ -139,8 +145,8 @@
 
 
           </section>
-          <section class="container-fluid pt-2 ms-4   navigation">
-            <div class="row row-cols-1 row-cols-md-3 row-cols-md-12 g-5">
+          <section class="container-fluid pt-2  navigation">
+            <div class="row row-cols-1 row-cols-md-3 row-cols-md-12 g-3">
               <div class="col navigation">
                 <div class="card">
                   <img src="img/images.jpeg" class=" card-img-top" alt="..." height="200" width="200">
@@ -175,6 +181,28 @@
 
           </section>
 
+          <!--slider-->
+          <section>
+            <div class="owl-carousel owl-theme">
+              <div class="item">
+                <img src="ima/images (1).jpeg" alt="" srcset="">
+              </div>
+              <div class="item">
+                <img src="ima/images (1).jpeg" alt="" srcset="">
+              </div>
+              <div class="item">
+                <img src="ima/images (1).jpeg" alt="" srcset="">
+              </div>
+              <div class="item">
+                <img src="ima/images (1).jpeg" alt="" srcset="">
+              </div>
+              <div class="item">
+                <img src="ima/images (1).jpeg" alt="" srcset="">
+              </div>
+              <div class="item">
+                <img src="ima/images (1).jpeg" alt="" srcset="">
+              </div>
+          </section>
           <section
             class="container-fluid navigation text-light  d-flex  text-center justify-content-center align-items-center p-4  another">
             <div>
@@ -196,23 +224,7 @@
             </div>
           </section>
         </main>
-        <section class="container ">
-          <nav aria-label="Page navigation example">
-            <ul class="pagination  justify-content-center">
-              <li class="page-item disabled">
-                <a class="page-link">Previous</a>
-              </li>
-              <li class="page-item "><a class="page-link" href="fashion.html">1</a></li>
-              <li class="page-item "><a class="page-link" href="food.html">2</a></li>
-              <li class="page-item"><a class="page-link" href="customer.html">3</a></li>
-              <li class="page-item"><a class="page-link" href="BabyCare.html">4</a></li>
-              <li class="page-item"><a class="page-link" href="Flas.html">5</a></li>
-              <li class="page-item">
-                <a class="page-link" href="popular.html">Next</a>
-              </li>
-            </ul>
-          </nav>
-        </section>
+
         <section class="container">
 
           <div class="row row-cols-1 row-cols-md-3 row-cols-sm-12 g-4 pt-5 ps-3">
@@ -252,15 +264,42 @@
             </div>
         </section>
 
-        <section class="container">
-          <footer class="mt-5 text-center ">
+        <section class="container-fluid   ">
+          <footer class="mt-5 text-center pt-2">
             <P> <small>@panda-commerce.all right reserved</small></P>
           </footer>
         </section>
 
+
+
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+          integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+          integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
           integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
           crossorigin="anonymous"></script>
+        <script type="text/javascript">
+          $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: false,
+            responsive: {
+              0: {
+                items: 1
+              },
+              600: {
+                items: 3
+              },
+              1000: {
+                items: 5
+              }
+            }
+          })
+        </script>
   </body>
 
 </html>
