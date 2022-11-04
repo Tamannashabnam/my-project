@@ -1,6 +1,8 @@
 body {
   background-color: rgb(250, 235, 215);
   font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Inter', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .another {
@@ -15,19 +17,15 @@ body {
 }
 
 .navigation {
-  background-color: #86e4e6;
+  background-color: #F8AF57;
 
 }
 
-.col {
-  background-color: #35C8CA;
 
-}
 
-.col-1 {
 
-  padding: 30px;
-  text-align: center;
+.method {
+  display: flex;
 
 }
 
